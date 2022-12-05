@@ -21,6 +21,7 @@ body {
 a, button, input {
   min-width : 44px;
   min-height: 44px;
+  text-decoration: none;
 }
 
 /* Header */
@@ -38,10 +39,6 @@ a, button, input {
 .app-bar .app-bar__title {
   display: flex;
   align-items: center;
-}
-
-.app-bar .app-bar__title a {
-  text-decoration: none;
 }
 
 .app-bar .app-bar__title h1 {
@@ -88,6 +85,17 @@ a, button, input {
   padding: 8px;
   margin-bottom: 5px;
   width: 100%;
+}
+
+.app-bar .app-bar__nav ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+
+.app-bar .app-bar__nav ul li a:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
 }
 
 /* Hero */

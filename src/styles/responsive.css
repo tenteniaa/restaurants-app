@@ -29,6 +29,7 @@
 @media screen and (max-width: 650px) {
   .app-bar .app-bar__title h1 {
     padding-left: 0px;
+    padding-top: 4px;
   }
 
   .restaurant {

@@ -88,12 +88,10 @@ a, button, input {
 
 .app-bar .app-bar__nav ul li a:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #ffee10;
 }
 
 .app-bar .app-bar__nav ul li a:hover {
   color: #ffee10;
-  box-shadow: 0 0 5px #ffee10;
   text-shadow: 0 0 5px #ffee10;
 }
 

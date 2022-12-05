@@ -5,7 +5,7 @@ class FavoriteRestaurantSearchView {
     return `
         <div class="content">
           <h2 class="content__heading">Your Liked Restaurant</h2>
-            <input id="query" placeholder="Search favorite movie" type="text">
+            <input id="query" placeholder="Search favorite restaurant" type="text">
             <div id="restaurants" class="restaurants">
             </div>
         </div>

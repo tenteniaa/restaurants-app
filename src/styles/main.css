@@ -38,6 +38,9 @@ a, button, input {
 .app-bar .app-bar__title {
   display: flex;
   align-items: center;
+}
+
+.app-bar .app-bar__title a {
   text-decoration: none;
 }
 
@@ -298,4 +301,6 @@ input {
   width: 215px;
   font-size: 15px;
   font-size: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  border: 1px solid;
 }
